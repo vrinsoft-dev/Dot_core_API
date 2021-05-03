@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafiCodeAPI", "SafiCodeAPI\SafiCodeAPI.csproj", "{F90964A2-CE61-43D3-9EB2-E3DBAACA4808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafiCodeAPI", "SafiCodeAPI\SafiCodeAPI.csproj", "{3B137346-AFE3-4309-A3F5-32368BF477EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafiCodeAPI.Business", "SafiCodeAPI.Business\SafiCodeAPI.Business.csproj", "{22B67A6E-D1D8-43A2-BB7F-564CFB13FC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafiCodeAPI.Modal", "SafiCodeAPI.Modal\SafiCodeAPI.Modal.csproj", "{C82A7334-B3AB-465A-B44F-969AF3B0F6FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F90964A2-CE61-43D3-9EB2-E3DBAACA4808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F90964A2-CE61-43D3-9EB2-E3DBAACA4808}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F90964A2-CE61-43D3-9EB2-E3DBAACA4808}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F90964A2-CE61-43D3-9EB2-E3DBAACA4808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B137346-AFE3-4309-A3F5-32368BF477EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B137346-AFE3-4309-A3F5-32368BF477EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B137346-AFE3-4309-A3F5-32368BF477EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B137346-AFE3-4309-A3F5-32368BF477EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B67A6E-D1D8-43A2-BB7F-564CFB13FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B67A6E-D1D8-43A2-BB7F-564CFB13FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B67A6E-D1D8-43A2-BB7F-564CFB13FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B67A6E-D1D8-43A2-BB7F-564CFB13FC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82A7334-B3AB-465A-B44F-969AF3B0F6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82A7334-B3AB-465A-B44F-969AF3B0F6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82A7334-B3AB-465A-B44F-969AF3B0F6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82A7334-B3AB-465A-B44F-969AF3B0F6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
